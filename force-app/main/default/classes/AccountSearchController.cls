@@ -2,7 +2,7 @@
  * @description       : 
  * @author            : ChangeMeIn@UserSettingsUnder.SFDoc
  * @group             : 
- * @last modified on  : 08-23-2021
+ * @last modified on  : 09-09-2021
  * @last modified by  : ChangeMeIn@UserSettingsUnder.SFDoc
 **/
 public with sharing class AccountSearchController {
@@ -17,7 +17,7 @@ public with sharing class AccountSearchController {
                     BillingStreet, BillingCity,
                     BillingState, BillingPostalCode
                     ORDER BY Name
-                    LIMIT 5
+                    LIMIT 10
                 )
             ];
             accounts = searchResults[0];
